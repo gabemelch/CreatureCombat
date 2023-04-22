@@ -1,4 +1,4 @@
-import * as me;
+import * as me from './melonjs/melon.js';
 // Define the title screen scene
 var TitleScreen = me.Stage.extend({
 
@@ -13,7 +13,7 @@ var TitleScreen = me.Stage.extend({
         me.game.world.addChild(new me.ColorLayer("background", "#8BC34A", 0));
 
         // Add the title text
-        var title = new me.Text(0, 0, { font: "bubbly", size: 72, fillStyle: "#000000" });
+        var title = new me.Text(0, 0, { font: "Bubblegum Sans", size: 72, fillStyle: "#000000" });
         title.setText("CREATURE COMBAT");
         title.pos.set(me.game.viewport.width / 2 - title.width / 2, me.game.viewport.height / 2 - title.height / 2);
         me.game.world.addChild(title);
