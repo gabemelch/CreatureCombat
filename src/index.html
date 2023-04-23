@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Creature Combat</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="index.css">
     <meta charset="utf-8"/>
-    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <title>melonJS ES6 Webpack boilerplate</title>
-  </head>
-  <body>
+      </head>
+  <body bgcolor="#8BC34A">
       <!-- Canvas placeholder -->
-      <div id="screen"></div>
+      <div id="screen">
+        <canvas class="game-canvas" width="1408" height="792">
+        </canvas>
+      </div>
+        <!-- Bootstrap -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/melonjs@13/dist/melonjs.min.js"></script>
+  <script type="module">
+    import onload from './js/stage/title.js';
+    me.device.onReady(function onReady() {
+        onload();
+    });
+</script>
   </body>
 </html>

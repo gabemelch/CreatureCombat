@@ -6,7 +6,7 @@ class PlayScreen extends Stage {
      */
     onResetEvent() {
         // add a gray background to the default Stage
-        game.world.addChild(new ColorLayer("background", "#202020"));
+        game.world.addChild(new ColorLayer("background", "#0000000"));
 
         // add a font text display object
         game.world.addChild(new BitmapText(game.viewport.width / 2, game.viewport.height / 2,  {

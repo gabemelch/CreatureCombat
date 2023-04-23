@@ -1,4 +1,4 @@
-import * as me from './melonjs/melon.js';
+/*import * as me from './melonjs/melon.js';
 // Define the title screen scene
 var TitleScreen = me.Stage.extend({
 
@@ -52,4 +52,5 @@ game.onload = function() {
     });
     // Start the game
     game.start();
-};
+}
+*/
