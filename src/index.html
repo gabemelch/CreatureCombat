@@ -3,21 +3,22 @@
   <head>
     <title>Creature Combat</title>
     <link rel="stylesheet" type="text/css" media="screen" href="index.css">
-    <meta charset="utf-8"/>
-      </head>
-  <body bgcolor="#8BC34A">
-      <!-- Canvas placeholder -->
-      <div id="screen">
-        <canvas class="game-canvas" width="1408" height="792">
-        </canvas>
-      </div>
-        <!-- Bootstrap -->
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/melonjs@13/dist/melonjs.min.js"></script>
-  <script type="module">
-    import onload from './js/stage/title.js';
-    me.device.onReady(function onReady() {
-        onload();
-    });
-</script>
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  </head>
+  <body>
+    <!-- Canvas placeholder -->
+    <div id="screen"></div>
+  
+    <!-- Bootstrap -->
+    <script type="module">
+        import { device } from 'melonjs';
+        import onload from './js/index.js';
+  
+        device.onReady(() => {
+            onload();
+        });
+    </script>
   </body>
-</html>
+  </html>

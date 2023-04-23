@@ -1,4 +1,4 @@
-import * as me from 'melonjs';
+import { Stage, game, ColorLayer, BitmapText  } from 'melonjs';
 
 class TitleScreen extends Stage {
     /**
@@ -6,13 +6,16 @@ class TitleScreen extends Stage {
      */
     onResetEvent() {
         // Set the background color to light green
-        me.game.world.addChild(new me.ColorLayer("background", "#8BC34A", 0));
+        game.world.addChild(new me.ColorLayer("background", "#", 0));
 
         // Add the title text
-        var title = new me.Text(0, 0, { font: "Bubblegum Sans", size: 72, fillStyle: "#000000" });
-        title.setText("CREATURE COMBAT");
-        title.pos.set(me.game.viewport.width / 2 - title.width / 2, me.game.viewport.height / 2 - title.height / 2);
-        me.game.world.addChild(title);
+        game.world.addChild(new BitmapText(game.viewport.width / 2, game.viewport.height / 2,  {
+            font : "PressStart2P",
+            size : 4.0,
+            textBaseline : "middle",
+            textAlign : "center",
+            text : "CREATURE COMBAT"
+        }));
     }
 
     /**
@@ -20,8 +23,8 @@ class TitleScreen extends Stage {
      */
     onDestroyEvent() {
         // Remove all the UI elements from the title screen
-        me.game.world.removeChild(this.backgroundLayer);
-        me.game.world.removeChild(this.title);
+        game.world.removeChild(this.backgroundLayer);
+        game.world.removeChild(this.title);
     }
 };
 
