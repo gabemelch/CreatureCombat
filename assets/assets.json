@@ -1,0 +1,181 @@
+{
+  "section": {"files": [
+    {
+      "type": "image",
+      "key": "LogIn",
+      "url": "assets/LogIn.png"
+    },
+    {
+      "type": "image",
+      "key": "Signup",
+      "url": "assets/Signup.png"
+    },
+    {
+      "type": "svg",
+      "key": "black-bird",
+      "url": "assets/Animals/black-bird.svg"
+    },
+    {
+      "type": "svg",
+      "key": "black-cat",
+      "url": "assets/Animals/black-cat.svg"
+    },
+    {
+      "type": "svg",
+      "key": "deer",
+      "url": "assets/Animals/deer.svg"
+    },
+    {
+      "type": "svg",
+      "key": "dodo",
+      "url": "assets/Animals/dodo.svg"
+    },
+    {
+      "type": "svg",
+      "key": "dog",
+      "url": "assets/Animals/dog.svg"
+    },
+    {
+      "type": "svg",
+      "key": "donkey",
+      "url": "assets/Animals/donkey.svg"
+    },
+    {
+      "type": "svg",
+      "key": "dragon",
+      "url": "assets/Animals/dragon.svg"
+    },
+    {
+      "type": "svg",
+      "key": "eagle",
+      "url": "assets/Animals/eagle.svg"
+    },
+    {
+      "type": "svg",
+      "key": "goose",
+      "url": "assets/Animals/goose.svg"
+    },
+    {
+      "type": "svg",
+      "key": "gorilla",
+      "url": "assets/Animals/gorilla.svg"
+    },
+    {
+      "type": "svg",
+      "key": "jellyfish",
+      "url": "assets/Animals/jellyfish.svg"
+    },
+    {
+      "type": "svg",
+      "key": "kangaroo",
+      "url": "assets/Animals/kangaroo.svg"
+    },
+    {
+      "type": "svg",
+      "key": "koala",
+      "url": "assets/Animals/koala.svg"
+    },
+    {
+      "type": "svg",
+      "key": "mammoth",
+      "url": "assets/Animals/mammoth.svg"
+    },
+    {
+      "type": "svg",
+      "key": "monkey",
+      "url": "assets/Animals/monkey.svg"
+    },
+    {
+      "type": "svg",
+      "key": "octopus",
+      "url": "assets/Animals/octopus.svg"
+    },
+    {
+      "type": "svg",
+      "key": "person-walking",
+      "url": "assets/Animals/person-walking.svg"
+    },
+    {
+      "type": "svg",
+      "key": "pig",
+      "url": "assets/Animals/pig.svg"
+    },
+    {
+      "type": "svg",
+      "key": "rat",
+      "url": "assets/Animals/rat.svg"
+    },
+    {
+      "type": "svg",
+      "key": "scorpion",
+      "url": "assets/Animals/scorpion.svg"
+    },
+    {
+      "type": "svg",
+      "key": "shark",
+      "url": "assets/Animals/shark.svg"
+    },
+    {
+      "type": "svg",
+      "key": "sloth",
+      "url": "assets/Animals/sloth.svg"
+    },
+    {
+      "type": "svg",
+      "key": "snail",
+      "url": "assets/Animals/snail.svg"
+    },
+    {
+      "type": "svg",
+      "key": "snake",
+      "url": "assets/Animals/snake.svg"
+    },
+    {
+      "type": "svg",
+      "key": "t-rex",
+      "url": "assets/Animals/t-rex.svg"
+    },
+    {
+      "type": "svg",
+      "key": "tiger",
+      "url": "assets/Animals/tiger.svg"
+    },
+    {
+      "type": "image",
+      "key": "5065_chameleon",
+      "url": "assets/Animals/5065_chameleon.png"
+    },
+    {
+      "type": "image",
+      "key": "Lion",
+      "url": "assets/Animals/Lion.png"
+    },
+    {
+      "type": "image",
+      "key": "Tree_Frog",
+      "url": "assets/Animals/Tree_Frog.png"
+    },
+    {
+      "type": "image",
+      "key": "ostrich",
+      "url": "assets/Animals/ostrich.png"
+    },
+    {
+      "type": "image",
+      "key": "panda",
+      "url": "assets/Animals/panda.png"
+    },
+    {
+      "type": "image",
+      "key": "unicorn",
+      "url": "assets/Animals/unicorn.png"
+    }
+  ]},
+  "meta": {
+    "generated": "1682390087864",
+    "app": "Phaser Editor 2D - Asset Pack Editor - 2.1.8",
+    "contentType": "Phaser v3 Asset Pack",
+    "url": "https://phasereditor2d.com",
+    "version": "2"
+  }
+}

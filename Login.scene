@@ -1,0 +1,92 @@
+{
+    "id": "2ff7673c-21f3-4db0-9007-9ff9890ebf0a",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Login"
+    },
+    "displayList": [
+        {
+            "type": "Rectangle",
+            "id": "35ca4769-8e4d-4709-a7c2-0e7f041f2c8b",
+            "label": "rectangle_1",
+            "components": [],
+            "x": 369,
+            "y": 306,
+            "scaleX": 10,
+            "scaleY": 10,
+            "isFilled": true,
+            "fillColor": "#6c8e38",
+            "width": 128,
+            "height": 128,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "d40dab6c-a230-455d-afbd-1f836c991231",
+            "label": "loginbutton",
+            "components": [],
+            "texture": {
+                "key": "LogIn"
+            },
+            "x": 202,
+            "y": 494,
+            "scaleX": 2,
+            "scaleY": 2,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "eaaeae85-4e85-49fe-9a66-583710e95a76",
+            "label": "signupbutton",
+            "components": [],
+            "texture": {
+                "key": "Signup"
+            },
+            "x": 608,
+            "y": 491,
+            "scaleX": 2,
+            "scaleY": 2,
+            "list": []
+        },
+        {
+            "type": "Text",
+            "id": "347c7f63-df96-4a74-9e99-93848c3373e7",
+            "label": "text_1",
+            "components": [],
+            "x": 39,
+            "y": 57,
+            "text": "CREATURE COMBAT",
+            "fontSize": "80px",
+            "fontStyle": "bold",
+            "color": "#000000ff",
+            "stroke": "#d8850aff",
+            "strokeThickness": 6,
+            "shadow.stroke": true,
+            "list": []
+        },
+        {
+            "type": "Text",
+            "id": "4262340c-9c4f-4a4b-8ca8-e1223145cfb1",
+            "label": "enteremail",
+            "components": [],
+            "x": 124,
+            "y": 187,
+            "text": "Please Enter Your Email",
+            "fontSize": "40px",
+            "color": "#000000ff",
+            "stroke": "#000000ff",
+            "strokeThickness": 2,
+            "backgroundColor": "#ffffffff",
+            "list": []
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}
